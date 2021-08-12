@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,css {
+    height:100%;
+}
+
+body {
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    background: rgb(21,32,97);
+    background: linear-gradient(197deg, rgba(21,32,97,1) 33%, rgba(54,77,204,1) 58%);
+}
+
+.socials {
+    text-align: center;
+}
+
+.profile {
+    width: 150px;
+    border-radius: 130px;
+    border: 5px solid white;
+    box-shadow:0 0 30px white;
+    margin-top: 15px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    font-size: 25px;
+   }
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size:20px;
+}
+
+.icones {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 15px 0;
+    
+}
+
+.icones img {
+    width: 33px;
+}
+
+.link-list {
+    list-style: none;
+}
+
+.link-list li {
+    margin: 10px 20px;
+   }
+
+
+.link-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.link-list li a span {
+    color: blue;
+    display: block;
+    margin-top: 5px;
+
+}
